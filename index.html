@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEIC to JPG Converter – Free & Fast HEIC Image Conversion</title>
+    <meta name="description" content="Convert HEIC to JPG online for FREE! Our fast, secure HEIC to JPG converter lets you upload and convert single or bulk HEIC images in seconds—no software required. Try it now!">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HEIC to JPG Converter</h1>
+        <div class="upload-container" id="dropZone">
+            <div class="upload-content">
+                <img src="upload-icon.svg" alt="Upload" class="upload-icon">
+                <p>Drag and drop HEIC files here<br>or <span class="browse-text">browse</span></p>
+                <input type="file" id="fileInput" multiple accept=".heic,.HEIC" style="display: none;">
+            </div>
+        </div>
+        <div class="conversion-status" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress" id="progressBar"></div>
+            </div>
+            <p id="statusText">Converting...</p>
+        </div>
+        <div id="imageGallery" class="image-gallery"></div>
+        <button id="downloadAll" class="download-all-btn" style="display: none;">Download All Images</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
