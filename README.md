@@ -34,7 +34,7 @@ Try it here: [HEIC to JPG Converter](https://builtwithtrae.com/heic-to-jpg/)
 
 ## 🛠️ Built With
 
-This project was developed with the assistance of **Trae.ai**(https://trae.ai/), an AI-powered development tool that helped streamline the creation of this converter. From optimizing performance to ensuring a seamless user experience, Trae.ai played a key role in bringing this project to life.
+This project was developed with the assistance of [Trae.ai](https://trae.ai/), an AI-powered development tool that helped streamline the creation of this converter. From optimizing performance to ensuring a seamless user experience, Trae.ai played a key role in bringing this project to life.
 
 ## 👨‍💻 Created By
 
